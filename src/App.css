@@ -1,38 +1,43 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: "VCR OSD mono";
+  font-size: 10px;
+  background-color: rgb(3, 3, 3);
   color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+p,
+h1,
+h2 {
+  padding: 0;
+  margin: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-family: "teletekst";
+  font-size: 50px;
+  color: black;
+  width: fit-content;
+  display: inline;
+}
+
+.titleContainer {
+}
+
+.bbcTitle {
+  background-color: white;
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.footballTitle {
+  background-color: #0d15fc;
+  float: right;
+  padding: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: fit-content;
 }
