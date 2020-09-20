@@ -1,9 +1,19 @@
 import React from "react";
 import "./App.css";
+import "./components/clock";
+import Clock from "./components/clock";
+import ScoreCard from "./components/scorecard";
 
 function App() {
   return (
     <div className="App">
+      <div className={"topBar"} style={{ float: "right" }}>
+        <div style={{ display: "inline-flex" }}>
+          <p style={{ paddingRight: "10px" }}>CEEFAX 1 303 </p>
+          <Clock />
+        </div>
+      </div>
+
       <div className={"titleContainer"}>
         <div className={"bbcTitle"}>
           <h1>B</h1>
@@ -20,11 +30,14 @@ function App() {
           </h1>
         </div>
       </div>
-      <h2 style={{ color: "#30d91e" }}>PREMIERSHIP RESULTS/FIXTURES</h2>
-      <h2 style={{ color: "#22d7cf" }}>CHARLTON</h2>
-      <p>Robinson 16</p>
-      <p>Parker 32</p>
-      <p>Euell 61</p>
+      <h2 style={{ color: "#30d91e", fontSize: "20px", paddingTop: "10px" }}>
+        PREMIERSHIP RESULTS/FIXTURES
+      </h2>
+      <div className={"scores"} style={{ display: "grid" }}>
+        <ScoreCard />
+        <ScoreCard />
+        <ScoreCard />
+      </div>
     </div>
   );
 }
