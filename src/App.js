@@ -44,13 +44,14 @@ export default class App extends React.Component {
     const { matches } = this.state;
     const matchList = matches.length ? (
       <div>
-        {matches.map(
-          (x) =>
-            x.homeTeam.name +
-            x.awayTeam.name +
-            x.score.fullTime.homeTeam +
-            x.score.fullTime.awayTeam
-        )}
+        {matches.map((x) => (
+          <div>
+            <p>{x.homeTeam.name}</p>
+            <p>{x.awayTeam.name}</p>
+            <p>{x.score.fullTime.homeTeam}</p>
+            <p>{x.score.fullTime.awayTeam}</p>
+          </div>
+        ))}
       </div>
     ) : (
       <div>No Matches Shown</div>
@@ -86,7 +87,7 @@ export default class App extends React.Component {
         </h2>
         <div className={"scores"} style={{ display: "grid" }}>
           {matchList}
-          <ScoreCard />
+          <ScoreCard matches={matches} />
           <ScoreCard />
         </div>
       </div>

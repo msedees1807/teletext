@@ -9,6 +9,15 @@ function scorecard() {
         paddingBottom: "35px",
       }}
     >
+      {this.props.matches.map((x) => (
+        <div>
+          <p>{x.homeTeam.name}</p>
+          <p>{x.awayTeam.name}</p>
+          <p>{x.score.fullTime.homeTeam}</p>
+          <p>{x.score.fullTime.awayTeam}</p>
+        </div>
+      ))}
+
       <div style={{ color: "#27f9f9" }}>TEST</div>
       <div>4</div>
       <div>-</div>
