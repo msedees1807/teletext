@@ -9,7 +9,7 @@ function scorecard() {
         paddingBottom: "35px",
       }}
     >
-      <div style={{ color: "#27f9f9" }}>MAN UNITED</div>
+      <div style={{ color: "#27f9f9" }}>TEST</div>
       <div>4</div>
       <div>-</div>
       <div>3</div>
@@ -26,12 +26,6 @@ function scorecard() {
         <p>Bergkamp 17</p>
         <p>Anelka 84, 87</p>
       </div>
-
-      {/* 
-      <h2 style={{ color: "#22d7cf" }}>CHARLTON</h2>
-      <p>Robinson 16</p>
-      <p>Parker 32</p>
-      <p>Euell 61</p> */}
     </div>
   );
 }
