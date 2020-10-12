@@ -24,7 +24,7 @@ function scorecard(props) {
       <div style={{ color: "#27f9f9" }}>{props.data.awayTeam.name}</div>
 
       <div>
-        <p>Cole 12, 42</p>
+        <p>Cole 12, 42, 70</p>
         <p>Yorke 17, 63</p>
       </div>
       <div />
