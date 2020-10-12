@@ -44,7 +44,7 @@ export default class App extends React.Component {
     const { matches } = this.state;
     const matchList = matches.length ? (
       <div>
-        {matches.map((data) => (
+        {matches.slice(matches.length - 10, matches.length).map((data) => (
           <ScoreCard data={data} />
         ))}
       </div>

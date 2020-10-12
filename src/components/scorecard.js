@@ -7,14 +7,20 @@ function scorecard(props) {
     <div
       style={{
         display: "grid",
-        gridTemplateColumns: "auto 25px 25px 25px auto",
+        gridTemplateColumns: "35vw auto auto auto 35vw",
+        gridGap: "5px",
         paddingBottom: "35px",
+        width: "100%",
       }}
     >
       <div style={{ color: "#27f9f9" }}>{props.data.homeTeam.name}</div>
-      <div>{props.data.score.fullTime.homeTeam}</div>
-      <div>-</div>
-      <div>{props.data.score.fullTime.awayTeam}</div>
+      <div style={{ textAlign: "center" }}>
+        {props.data.score.fullTime.homeTeam}
+      </div>
+      <div style={{ textAlign: "center" }}>-</div>
+      <div style={{ textAlign: "center" }}>
+        {props.data.score.fullTime.awayTeam}
+      </div>
       <div style={{ color: "#27f9f9" }}>{props.data.awayTeam.name}</div>
 
       <div>
