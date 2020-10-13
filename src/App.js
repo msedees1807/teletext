@@ -44,9 +44,12 @@ export default class App extends React.Component {
     const { matches } = this.state;
     const matchList = matches.length ? (
       <div>
-        {matches.slice(matches.length - 10, matches.length).map((data) => (
-          <ScoreCard data={data} />
-        ))}
+        {matches
+          .slice(matches.length - 10, matches.length)
+          .reverse()
+          .map((data) => (
+            <ScoreCard data={data} />
+          ))}
       </div>
     ) : (
       <div>No Matches Shown</div>
@@ -80,9 +83,7 @@ export default class App extends React.Component {
         <h2 style={{ color: "#30d91e", fontSize: "20px", paddingTop: "10px" }}>
           PREMIERSHIP RESULTS/FIXTURES
         </h2>
-        <div className={"scores"} style={{ display: "grid" }}>
-          {matchList}
-        </div>
+        <div className={"scores"}>{matchList}</div>
       </div>
     );
   }
