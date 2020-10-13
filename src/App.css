@@ -6,6 +6,7 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
+  min-height: 450px;
   max-width: 500px;
   margin: auto;
   box-shadow: 0px 12px 20px 10px #0000006b;
@@ -19,7 +20,7 @@ h2 {
 }
 
 h1 {
-  font-family: "teletekst";
+  font-family: "Teletekst";
   font-size: 60px;
   color: black;
   width: fit-content;

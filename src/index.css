@@ -4,3 +4,13 @@ body {
   padding: 0;
   margin: 0;
 }
+
+@font-face {
+  font-family: "Teletactile";
+  src: local("Teletactile"), url("./fonts/Teletactile.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Teletekst";
+  src: local("Teletekst"), url("./fonts/Teletekst.ttf") format("truetype");
+}
