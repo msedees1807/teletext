@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8c97f82181cd4418b312a573a354526",
+    "revision": "ead96ba5b0121b0fa005a3c64db8c259",
     "url": "/teletext/index.html"
   },
   {
-    "revision": "8b86dd825709de8ddfa7",
-    "url": "/teletext/static/css/main.7220e5d2.chunk.css"
+    "revision": "56d945c07faac257c9dd",
+    "url": "/teletext/static/css/main.22df9230.chunk.css"
   },
   {
     "revision": "92f223b11a6505d2ab5f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teletext/static/js/2.43a9128e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8b86dd825709de8ddfa7",
-    "url": "/teletext/static/js/main.2bbad647.chunk.js"
+    "revision": "56d945c07faac257c9dd",
+    "url": "/teletext/static/js/main.ad151cb2.chunk.js"
   },
   {
     "revision": "decedb6ed13f06cae503",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e5f8380e3efb034d8fd47a7f86a9ae3",
     "url": "/teletext/static/media/Teletekst.4e5f8380.ttf"
+  },
+  {
+    "revision": "5fcd6c657ffa8a6791632c705f0944ea",
+    "url": "/teletext/static/media/VCR.5fcd6c65.ttf"
   }
 ]);

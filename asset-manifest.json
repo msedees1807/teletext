@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/teletext/static/css/main.7220e5d2.chunk.css",
-    "main.js": "/teletext/static/js/main.2bbad647.chunk.js",
-    "main.js.map": "/teletext/static/js/main.2bbad647.chunk.js.map",
+    "main.css": "/teletext/static/css/main.22df9230.chunk.css",
+    "main.js": "/teletext/static/js/main.ad151cb2.chunk.js",
+    "main.js.map": "/teletext/static/js/main.ad151cb2.chunk.js.map",
     "runtime-main.js": "/teletext/static/js/runtime-main.3ae88e0d.js",
     "runtime-main.js.map": "/teletext/static/js/runtime-main.3ae88e0d.js.map",
     "static/js/2.43a9128e.chunk.js": "/teletext/static/js/2.43a9128e.chunk.js",
     "static/js/2.43a9128e.chunk.js.map": "/teletext/static/js/2.43a9128e.chunk.js.map",
     "index.html": "/teletext/index.html",
-    "precache-manifest.98558591e6b27c677f16876a5e69a8ee.js": "/teletext/precache-manifest.98558591e6b27c677f16876a5e69a8ee.js",
+    "precache-manifest.b2c4b5e11af06595aaa9a645859fe728.js": "/teletext/precache-manifest.b2c4b5e11af06595aaa9a645859fe728.js",
     "service-worker.js": "/teletext/service-worker.js",
-    "static/css/main.7220e5d2.chunk.css.map": "/teletext/static/css/main.7220e5d2.chunk.css.map",
+    "static/css/main.22df9230.chunk.css.map": "/teletext/static/css/main.22df9230.chunk.css.map",
     "static/js/2.43a9128e.chunk.js.LICENSE.txt": "/teletext/static/js/2.43a9128e.chunk.js.LICENSE.txt",
     "static/media/Teletactile.ttf": "/teletext/static/media/Teletactile.84b0d03d.ttf",
-    "static/media/Teletekst.ttf": "/teletext/static/media/Teletekst.4e5f8380.ttf"
+    "static/media/Teletekst.ttf": "/teletext/static/media/Teletekst.4e5f8380.ttf",
+    "static/media/VCR.ttf": "/teletext/static/media/VCR.5fcd6c65.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.3ae88e0d.js",
     "static/js/2.43a9128e.chunk.js",
-    "static/css/main.7220e5d2.chunk.css",
-    "static/js/main.2bbad647.chunk.js"
+    "static/css/main.22df9230.chunk.css",
+    "static/js/main.ad151cb2.chunk.js"
   ]
 }
