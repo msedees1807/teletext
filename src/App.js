@@ -52,7 +52,7 @@ export default class App extends React.Component {
           ))}
       </div>
     ) : (
-      <div>No Matches Shown</div>
+      <div>No Matches Shown.</div>
     );
 
     return (
