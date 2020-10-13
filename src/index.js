@@ -5,6 +5,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "./fonts/Teletactile.ttf";
 import "./fonts/Teletekst.ttf";
+import "./fonts/VCR.ttf";
 
 ReactDOM.render(
   <React.StrictMode>

@@ -6,6 +6,11 @@ body {
 }
 
 @font-face {
+  font-family: "VCR";
+  src: local("VCR"), url("./fonts/VCR.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Teletactile";
   src: local("Teletactile"), url("./fonts/Teletactile.ttf") format("truetype");
 }
