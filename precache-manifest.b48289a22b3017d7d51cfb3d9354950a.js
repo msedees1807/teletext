@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ead96ba5b0121b0fa005a3c64db8c259",
+    "revision": "3b36c31ad4205921e1624410f69e82aa",
     "url": "/teletext/index.html"
   },
   {
