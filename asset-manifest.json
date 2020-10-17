@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/teletext/static/css/main.22df9230.chunk.css",
-    "main.js": "/teletext/static/js/main.ad151cb2.chunk.js",
-    "main.js.map": "/teletext/static/js/main.ad151cb2.chunk.js.map",
+    "main.js": "/teletext/static/js/main.f03c27db.chunk.js",
+    "main.js.map": "/teletext/static/js/main.f03c27db.chunk.js.map",
     "runtime-main.js": "/teletext/static/js/runtime-main.3ae88e0d.js",
     "runtime-main.js.map": "/teletext/static/js/runtime-main.3ae88e0d.js.map",
     "static/js/2.43a9128e.chunk.js": "/teletext/static/js/2.43a9128e.chunk.js",
     "static/js/2.43a9128e.chunk.js.map": "/teletext/static/js/2.43a9128e.chunk.js.map",
     "index.html": "/teletext/index.html",
-    "precache-manifest.b48289a22b3017d7d51cfb3d9354950a.js": "/teletext/precache-manifest.b48289a22b3017d7d51cfb3d9354950a.js",
+    "precache-manifest.f65057131963acd356bce10f7a3c5976.js": "/teletext/precache-manifest.f65057131963acd356bce10f7a3c5976.js",
     "service-worker.js": "/teletext/service-worker.js",
     "static/css/main.22df9230.chunk.css.map": "/teletext/static/css/main.22df9230.chunk.css.map",
     "static/js/2.43a9128e.chunk.js.LICENSE.txt": "/teletext/static/js/2.43a9128e.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.3ae88e0d.js",
     "static/js/2.43a9128e.chunk.js",
     "static/css/main.22df9230.chunk.css",
-    "static/js/main.ad151cb2.chunk.js"
+    "static/js/main.f03c27db.chunk.js"
   ]
 }

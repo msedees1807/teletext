@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b36c31ad4205921e1624410f69e82aa",
+    "revision": "8621e749d3b33962b342d69d1b043d5c",
     "url": "/teletext/index.html"
   },
   {
-    "revision": "56d945c07faac257c9dd",
+    "revision": "58dbb0851ba77d14900b",
     "url": "/teletext/static/css/main.22df9230.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teletext/static/js/2.43a9128e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56d945c07faac257c9dd",
-    "url": "/teletext/static/js/main.ad151cb2.chunk.js"
+    "revision": "58dbb0851ba77d14900b",
+    "url": "/teletext/static/js/main.f03c27db.chunk.js"
   },
   {
     "revision": "decedb6ed13f06cae503",
